@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Masimelrowoo</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">My Page</string>
+    <string name="title_dashboard">Mailbox</string>
+    <string name="title_notifications">To Everyone</string>
+    <string name="title_friend">Friend</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
