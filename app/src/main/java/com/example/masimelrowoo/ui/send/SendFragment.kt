@@ -1,18 +1,20 @@
-package com.example.masimelrowoo.ui.friend
+package com.example.masimelrowoo.ui.send
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.masimelrowoo.databinding.FragmentFriendBinding
+import com.example.masimelrowoo.databinding.FragmentSendBinding
+import com.example.masimelrowoo.ui.send.SendViewModel
 
-class FriendFragment : Fragment() {
-    private lateinit var friendViewModel: FriendViewModel
-    private var _binding: FragmentFriendBinding? = null
+class SendFragment : Fragment() {
+
+    private lateinit var sendViewModel: SendViewModel
+    private var _binding: FragmentSendBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,14 +25,14 @@ class FriendFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        friendViewModel =
-            ViewModelProvider(this).get(FriendViewModel::class.java)
+        sendViewModel =
+            ViewModelProvider(this).get(SendViewModel::class.java)
 
-        _binding = FragmentFriendBinding.inflate(inflater, container, false)
+        _binding = FragmentSendBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textProfile
-        friendViewModel.text.observe(viewLifecycleOwner, Observer {
+        val textView: TextView = binding.textSend
+        sendViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
