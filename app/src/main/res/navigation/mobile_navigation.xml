@@ -34,4 +34,5 @@
         android:name="com.example.masimelrowoo.ui.friend.FriendFragment"
         android:label="@string/title_friend"
         tools:layout="@layout/fragment_friend" />
+
 </navigation>
