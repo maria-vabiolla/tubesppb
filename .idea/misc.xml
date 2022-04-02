@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_main.xml" value="0.159375" />
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_navigation.xml" value="0.159375" />
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_friend.xml" value="0.159375" />
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_joke.xml" value="0.1" />
+        <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_notifications.xml" value="0.284375" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_navigation.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_dashboard.xml" value="0.27447916666666666" />
