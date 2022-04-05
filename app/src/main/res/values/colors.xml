@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#F89BDB</color>
     <color name="pink2">#FF48C5</color>
+    <color name="notpass">#9FA5C0</color>
+    <color name="mainText">#2E3E5C</color>
 </resources>
