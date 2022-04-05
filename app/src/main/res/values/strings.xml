@@ -10,4 +10,9 @@
     <string name="welcome_to">Masimelrowoo</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="List">list</string>
+    <string name="Favorite">favorite</string>
+    <string name="Send_Message">Send Message to Everyone</string>
+    <string name="Submit">submit</string>
+    <string name="Note">It will be displayed in \"To Everyone\" in the inbox of all users, and it will be a message that anyone can answer. The operation picks up the discretion and prejudice, and the adopted one is added to the sender\'s favorite.</string>
 </resources>
