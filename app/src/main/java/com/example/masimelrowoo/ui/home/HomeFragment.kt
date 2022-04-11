@@ -10,6 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.masimelrowoo.R
 import com.example.masimelrowoo.databinding.FragmentHomeBinding
+import com.example.masimelrowoo.databinding.FragmentNotificationsBinding
+import com.example.masimelrowoo.ui.notifications.NotificationsViewModel
 
 class HomeFragment : Fragment() {
 
@@ -31,10 +33,6 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
         return root
     }
 
