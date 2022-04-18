@@ -20,7 +20,7 @@
 
 
             <Button
-                android:id="@+id/button_settings"
+                android:id="@+id/logout"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="55dp"
                 android:layout_height="wrap_content"
@@ -40,22 +40,23 @@
                 android:orientation="vertical"
                 android:gravity="center">
 
-                <ImageView
-                    android:id="@+id/imageView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_background" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"/>
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:paddingBottom="15dp"
-                    android:text="@string/username"
-                    android:textColor="@color/mainText"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
+                    android:text="@string/username"/>
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"/>
 
             </LinearLayout>
         </LinearLayout>
