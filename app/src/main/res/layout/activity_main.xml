@@ -66,4 +66,9 @@
         android:text="LOGIN"
         android:textSize="16dp" />
 
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleSignIn" />
+
 </LinearLayout>

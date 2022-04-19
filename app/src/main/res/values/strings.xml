@@ -13,7 +13,8 @@
     <string name="dashboard_text_2">Confirmed</string>
     <string name="dashboard_text_3">Jokes</string>
 
-    <string name="username">@username</string>
+    <string name="username">Username</string>
+    <string name="email">Email@email.com</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="List">list</string>
