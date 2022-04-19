@@ -9,6 +9,10 @@
     <string name="title_joke">Joke</string>
     <string name="welcome_to">Masimelrowoo</string>
 
+    <string name="dashboard_text_1">Unconfirmed</string>
+    <string name="dashboard_text_2">Confirmed</string>
+    <string name="dashboard_text_3">Jokes</string>
+
     <string name="username">Username</string>
     <string name="email">Email@email.com</string>
 
