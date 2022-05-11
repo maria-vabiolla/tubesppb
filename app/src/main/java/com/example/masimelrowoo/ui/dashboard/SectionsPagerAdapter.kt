@@ -2,9 +2,10 @@ package com.example.masimelrowoo.ui.dashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class SectionsPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activity)  {
+class SectionsPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity)  {
 
     override fun createFragment(position: Int): Fragment {
         var fragment: Fragment? = null
