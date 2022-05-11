@@ -27,6 +27,7 @@ class DashboardActivity : AppCompatActivity() {
         val viewPager: ViewPager2 = findViewById(R.id.dashboard_view_pager)
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = findViewById(R.id.dashboard_tabs)
+
         TabLayoutMediator(tabs, viewPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
         }.attach()
