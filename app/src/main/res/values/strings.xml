@@ -20,6 +20,9 @@
     <string name="List">list</string>
     <string name="Favorite">favorite</string>
     <string name="Send_Message">Send Message to Everyone</string>
-    <string name="Submit">submit</string>
     <string name="Note">It will be displayed in \"To Everyone\" in the inbox of all users, and it will be a message that anyone can answer. The operation picks up the discretion and prejudice, and the adopted one is added to the sender\'s favorite.</string>
+    <string name="Anonymous">Anonymously send a message to Super Idol</string>
+    <string name="Note2">Negative content, sexual content, spam, etc. Will not delivered because AI will secretly delete them.</string>
+    <string name="everyone">2. Answer everyone\'s message until you receive it!</string>
+    <string name="inbox">1. Let\'s go see inbox !</string>
 </resources>
