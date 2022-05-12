@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (acct != null) {
             moveToNavActivity()
         }
-        // Use this to bypass login
+        // Use this to bypass login, delete this later
         moveToNavActivity()
     }
 
