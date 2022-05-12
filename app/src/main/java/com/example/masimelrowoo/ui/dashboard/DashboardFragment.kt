@@ -52,8 +52,6 @@ class DashboardFragment : Fragment() {
         TabLayoutMediator(tabs, viewPager) { tab, position ->
             tab.text = resources.getString(DashboardFragment.TAB_TITLES[position])
         }.attach()
-        // requireActivity().supportActionBar
-        // supportActionBar?.elevation = 0f
 
         return root
     }
