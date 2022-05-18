@@ -71,6 +71,7 @@ class DashboardJokesFragment : Fragment() {
                     404 -> "$statusCode : Not Found"
                     else -> "$statusCode : ${error.message}"
                 }
+
                 Toast.makeText(this@DashboardJokesFragment.requireActivity(), errorMessage, Toast.LENGTH_SHORT).show()
             }
         })
