@@ -31,10 +31,10 @@ class SendFragment : Fragment() {
         _binding = FragmentSendBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSend
-        sendViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+        // val textView: TextView = binding.textSend
+        // sendViewModel.text.observe(viewLifecycleOwner, Observer {
+        //     textView.text = it
+        //  })
         return root
     }
 
