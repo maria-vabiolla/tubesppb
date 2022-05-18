@@ -6,6 +6,7 @@
     tools:context=".ui.dashboard.DashboardJokesFragment">
 
     <TextView
+        android:id="@+id/jokes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Dashboard Jokes" />
