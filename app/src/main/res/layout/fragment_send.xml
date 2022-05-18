@@ -29,7 +29,6 @@
                     android:layout_marginTop="16dp"
                     android:paddingBottom="5dp"
                     android:text="@string/inbox"
-                    android:textColor="@color/mainText"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -45,7 +44,6 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="15dp"
                     android:text="@string/everyone"
-                    android:textColor="@color/mainText"
                     android:textSize="18sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -67,7 +65,6 @@
                     android:layout_marginTop="16dp"
                     android:paddingBottom="15dp"
                     android:text="@string/Anonymous"
-                    android:textColor="@color/mainText"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
