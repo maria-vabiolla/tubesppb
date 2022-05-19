@@ -11,7 +11,7 @@ class SectionsPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(ac
         var fragment: Fragment? = null
         when (position) {
             0 -> fragment = DashboardUnconfirmedFragment()
-            1 -> fragment = DashboardUnconfirmedFragment()
+            1 -> fragment = DashboardConfirmedFragment()
             2 -> fragment = DashboardJokesFragment()
         }
         return fragment as Fragment
