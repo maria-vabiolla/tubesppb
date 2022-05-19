@@ -40,10 +40,14 @@
     <string name="favorite">Favorite</string>
     <string name="share">Share</string>
     <string-array name="data_time">
+        <item>14 minutes ago</item>
         <item>21 minutes ago</item>
         <item>1 hours ago</item>
         <item>19 hours ago</item>
+        <item>23 hours ago</item>
         <item>2 days ago</item>
+        <item>4 days ago</item>
+        <item>4 days ago</item>
         <item>5 weeks ago</item>
         <item>10 months ago</item>
         <item>3 years ago</item>
@@ -52,10 +56,28 @@
     <string-array name="message">
         <item>What is your favorite drink?</item>
         <item>Please tell us your \"I like it but it\'s hard to recommend it to people\"</item>
-        <item>I\'m not drawing a picture to get a reaction, but I\'m a little sad if I don\'t get a reaction from the picture I drew. What are you guys doing with the motivation to draw picture?</item>
-        <item>Please tell me how to spend your time, which I think was the most wasted time in my history!</item>
-        <item>What did you do when you were sleepy during glass? (How to deal with it, how you slept, etc.)</item>
-        <item>If you want to draw a picture, is it analog or digital? I\'d be happy if you could give me a reason!</item>
+        <item>I\'m not drawing a picture to get a reaction, but I\'m a little sad if I don\'t get
+            a reaction from the picture I drew. What are you guys doing with the motivation to draw
+            picture?</item>
+        <item>Please tell me how to spend your time, which I think was the most wasted time in my
+            history!</item>
+        <item>What did you do when you were sleepy during glass? (How to deal with it, how you
+            slept, etc.)</item>
+        <item>If you want to draw a picture, is it analog or digital? I\'d be happy if you could
+            give me a reason!</item>
         <item>How would you respond to a bullying consultation and help from an SNS follower</item>
+        <item>In android, we can create swipeable tabs layout using Swipe Views to switch between
+            the tabs in the android application. The Swipe Views in android provides navigation
+            between the sibling screens such as tabs with a horizontal finger gesture, sometimes
+            it is called horizontal paging.</item>
+        <item>By using android ViewPager widget, we can create Swipe Views in our android
+            applications. In android, ViewPager is a layout widget in which each child view is
+            treated as a separate tab in the layout.</item>
+        <item>To set up our tab layout with ViewPager, we need to add a ViewPager element in our
+            XML layout. For example, to make each child view in the swipe view to consume the
+            entire tab layout, our layout should be like as shown following.</item>
+        <item>Here we are going to show the tabs using android ToolBar and TabLayout so we need to
+            remove the actionbar from a layout using styles, for that open styles.xml file from
+            /res/values folder and that should contain the code like as shown below. </item>
     </string-array>
 </resources>
