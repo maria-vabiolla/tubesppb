@@ -23,12 +23,15 @@
         <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_dashboard_unconfirmed.xml" value="0.1" />
         <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1545" />
         <entry key="..\:/Users/RAKKI/AndroidStudioProjects/tubesppb/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1545" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_friend_list_add_update.xml" value="0.11875" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/activity_navigation.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_friend.xml" value="0.1" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_friend.xml" value="0.264" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_home.xml" value="0.310126582278481" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_notifications.xml" value="0.4" />
         <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/fragment_send.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/layout/item_friend_list.xml" value="0.1" />
+        <entry key="..\:/Users/maria/AndroidStudioProjects/tubesppb/app/src/main/res/menu/menu_form.xml" value="0.1" />
       </map>
     </option>
   </component>
