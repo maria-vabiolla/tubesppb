@@ -25,6 +25,10 @@
     <string name="Note2">Negative content, sexual content, spam, etc. Will not delivered because AI will secretly delete them.</string>
     <string name="everyone">2. Answer everyone\'s message until you receive it!</string>
     <string name="inbox">1. Let\'s go see inbox !</string>
+
+    <string name="delete">Hapus</string>
+    <string name="title">Friend Name</string>
+  
     <string name="data_time">Time</string>
     <string name="message">Message</string>
     <string name="tab_text_1">List</string>
