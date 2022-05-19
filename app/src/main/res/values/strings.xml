@@ -28,7 +28,8 @@
 
     <string name="delete">Hapus</string>
     <string name="title">Friend Name</string>
-  
+    <string name="submit">Add Friend</string>
+
     <string name="data_time">Time</string>
     <string name="message">Message</string>
     <string name="tab_text_1">List</string>
