@@ -82,7 +82,6 @@
                         android:inputType="textMultiLine|textNoSuggestions"
                         android:minLines="6"
                         android:padding="12dp"
-                        android:textColor="@color/mainText"
                         android:textColorHint="#9FA5C0"
                         android:textSize="20sp" />
 
