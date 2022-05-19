@@ -19,6 +19,7 @@ import com.example.masimelrowoo.NavigationActivity
 import com.example.masimelrowoo.R
 import com.example.masimelrowoo.databinding.FragmentHomeBinding
 import com.example.masimelrowoo.databinding.FragmentNotificationsBinding
+import com.example.masimelrowoo.db.FriendListHelper
 import com.example.masimelrowoo.entity.User
 import com.example.masimelrowoo.ui.notifications.NotificationsViewModel
 import de.hdodenhof.circleimageview.CircleImageView
@@ -26,8 +27,9 @@ import de.hdodenhof.circleimageview.CircleImageView
 class HomeFragment : Fragment(), View.OnClickListener {
 
     private lateinit var homeViewModel: HomeViewModel
-    private lateinit var user : User
+    private var user: User? = null
     private lateinit var logout : Button
+    private lateinit var name : TextView
 
     companion object{
         private const val STATE_USER = "state_user"
@@ -41,6 +43,9 @@ class HomeFragment : Fragment(), View.OnClickListener {
         homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
+        if (arguments != null) {
+            user = arguments?.getParcelable<User>("user")!!
+        }
 
         logout = root.findViewById(R.id.logout)
         logout.setOnClickListener(this)
