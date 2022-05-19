@@ -14,7 +14,6 @@ import androidx.appcompat.app.AlertDialog
 import com.example.masimelrowoo.db.DatabaseContract
 import com.example.masimelrowoo.db.FriendListHelper
 import com.example.masimelrowoo.entity.FriendList
-import java.text.SimpleDateFormat
 import java.util.*
 
 class FriendListAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
@@ -139,10 +138,10 @@ class FriendListAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
 
         if (isDialogClose) {
             dialogTitle = "Batal"
-            dialogMessage = "Apakah anda ingin membatalkan perubahan pada form?"
+            dialogMessage = "Apakah anda ingin membatalkan?"
         } else {
-            dialogMessage = "Apakah anda yakin ingin menghapus item ini?"
-            dialogTitle = "Hapus Note"
+            dialogMessage = "Apakah anda yakin ingin menghapus teman ini?"
+            dialogTitle = "Lakukan unfriend?"
         }
 
         val alertDialogBuilder = AlertDialog.Builder(this)
@@ -162,7 +161,7 @@ class FriendListAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
                         setResult(RESULT_DELETE, intent)
                         finish()
                     } else {
-                        Toast.makeText(this@FriendListAddUpdateActivity, "Gagal menghapus data", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@FriendListAddUpdateActivity, "Gagal menghapus pertemanan", Toast.LENGTH_SHORT).show()
                     }
                 }
             }

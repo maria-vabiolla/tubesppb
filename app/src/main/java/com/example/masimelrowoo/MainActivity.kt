@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .requestProfile()
             .build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
+
+        val btnLogin: Button =
+            findViewById(R.id.btn_login)
+        btnLogin.setOnClickListener(this)
     }
 
     public override fun onStart() {
@@ -51,6 +55,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.googleSignIn -> {
                 val signInIntent = mGoogleSignInClient.getSignInIntent()
                 startActivityForResult(signInIntent, RC_SIGN_IN)
+            }
+            R.id.btn_login -> {
+                val moveIntent = Intent(this@MainActivity, NavigationActivity::class.java)
+                startActivity(moveIntent)
             }
         }
     }
