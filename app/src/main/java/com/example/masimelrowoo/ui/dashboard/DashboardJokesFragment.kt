@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.*
 import com.example.masimelrowoo.BuildConfig
 import com.example.masimelrowoo.R
+import com.example.masimelrowoo.databinding.FragmentNotificationsBinding
 import com.loopj.android.http.AsyncHttpClient
 import com.loopj.android.http.AsyncHttpResponseHandler
 import cz.msebera.android.httpclient.Header
@@ -19,18 +20,22 @@ import org.json.JSONObject
 class DashboardJokesFragment : Fragment() {
 
     // lateinit var progressBar: ProgressBar
-    lateinit var listJokes: ListView
+    private lateinit var tvJokes: TextView
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        getListJokes()
         return inflater.inflate(R.layout.fragment_dashboard_jokes, container, false)
     }
 
-    private fun getListJokes() {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        getListJokes(view)
+    }
+
+    private fun getListJokes(view: View) {
         // progressBar.visibility = View.VISIBLE
 
         val client = AsyncHttpClient()
@@ -53,10 +58,9 @@ class DashboardJokesFragment : Fragment() {
                         val joke = jsonObject.getString("joke")
                         listJoke.add("\n$joke\n")
                     }
-                    // TODO: change the display the listJoke from toast to DashboardJokesFragment
-                    Toast.makeText(this@DashboardJokesFragment.requireActivity(), listJoke.toString(), Toast.LENGTH_LONG).show()
-                    val adapter = ArrayAdapter(this@DashboardJokesFragment.requireActivity(), android.R.layout.activity_list_item, listJoke)
-                    // listJokes.adapter = adapter
+
+                    tvJokes = view.findViewById<TextView>(R.id.jokes)
+                    tvJokes.text = listJoke.toString()
                 } catch (e: Exception) {
                     Toast.makeText(this@DashboardJokesFragment.requireActivity(), e.message, Toast.LENGTH_SHORT).show()
                     e.printStackTrace()
